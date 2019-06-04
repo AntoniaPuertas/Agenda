@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/it_acerca_de"
+        android:title="@string/acerca_de" />
+    <item
+        android:id="@+id/it_privacidad"
+        android:title="@string/privacidad" />
+    <item
+        android:id="@+id/it_sincroniza"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/sincroniza"
+        app:showAsAction="always" />
+</menu>

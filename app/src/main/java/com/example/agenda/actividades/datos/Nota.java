@@ -1,10 +1,11 @@
 package com.example.agenda.actividades.datos;
 
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
 
-public class Nota {
+public class Nota implements Serializable {
     private Calendar fecha;
     private String texto;
     private String categoria;
@@ -58,6 +59,16 @@ public class Nota {
 
     public static String[] getCategorias() {
         return categorias;
+    }
+
+    public int getIndexCategoria(){
+        int aux = 0;
+        for(int i = 0 ; i < categorias.length ; i++){
+            if(this.categoria.equalsIgnoreCase(categorias[i])){
+                aux = i;
+            }
+        }
+        return aux;
     }
 
     public String getFechaToString(){

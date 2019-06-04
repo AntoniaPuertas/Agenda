@@ -3,4 +3,7 @@
     <string name="nueva_nota">Nueva Nota</string>
     <string name="crear">Crear</string>
     <string name="cancelar">Cancelar</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="privacidad">Privacidad</string>
+    <string name="sincroniza">Sincroniza</string>
 </resources>
