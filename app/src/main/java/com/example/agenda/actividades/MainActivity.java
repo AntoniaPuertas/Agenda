@@ -105,12 +105,18 @@ public class MainActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.it_acerca_de:
-                //TODO: mostrar pantalla acerca de
-                Toast.makeText(this, "Has pulsado acerca de", Toast.LENGTH_LONG).show();
+                //mostrar pantalla acerca de
+                Intent intent = new Intent(MainActivity.this, InformacionActivity.class);
+                intent.putExtra("texto", R.string.texto_acerca_de);
+                startActivity(intent);
+
                 return true;
             case R.id.it_privacidad:
-                //TODO: mostrar pantalla con politica de privacidad
-                Toast.makeText(this, "Has pulsado privacidad", Toast.LENGTH_LONG).show();
+                //mostrar pantalla con politica de privacidad
+                Intent intent2 = new Intent(MainActivity.this, InformacionActivity.class);
+                intent2.putExtra("texto", R.string.politica_privacidad);
+                startActivity(intent2);
+
                 return true;
             case R.id.it_sincroniza:
                 //TODO:sincronizar datos

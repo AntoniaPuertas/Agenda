@@ -6,4 +6,7 @@
     <string name="acerca_de">Acerca de</string>
     <string name="privacidad">Privacidad</string>
     <string name="sincroniza">Sincroniza</string>
+    <string name="agenda">Agenda</string>
+    <string name="politica_privacidad">Agendas del futuro, consciente de los derechos individuales, en particular, con respecto al tratamiento automatizado, y con un compromiso de transparencia con sus clientes, ha implementado una política que cubre todos estos tratamientos, los efectos de este último y medios disponibles para los Usuarios puedan conocer y ejercer mejor sus derechos.</string>
+    <string name="texto_acerca_de">Esta es una app que se ha creado con fines didácticos</string>
 </resources>
